@@ -65,7 +65,7 @@ static void logVars(std::string logContent, LOG_TYPE logType, T... t);
   KFCppLog::log("This is message", LOG_TYPE::WARNING);
   KFCppLog::logVar("Name log", LOG_TYPE::ERR, name);
   KFCppLog::logVar("Age log", LOG_TYPE::SUCCESS, age);
-  KFCppLog::logVars("Age log", LOG_TYPE::INFO, var1, var2, var3);
+  KFCppLog::logVars("Variables log", LOG_TYPE::INFO, var1, var2, var3);
 ```
 
 ![alt text](https://github.com/KitsF0x/KFCppLog/blob/main/example.png?raw=true)
