@@ -26,7 +26,7 @@ static void log(std::string logContent, LOG_TYPE logType);
 static void logVar(std::string logContent, LOG_TYPE logType, const T& t);
 ```
 
-#### Log with multiple variable:
+#### Log with multiple variables:
 
 ##### `logContent` -> message
 
