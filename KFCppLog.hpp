@@ -76,7 +76,7 @@ class KFCppLog {
         std::cout << "UNKNOWN TYPE";
         exit(-1);
     }
-    std::cout << " ]";
+    std::cout << " ]  ";
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
     std::cout << '\t';
   }
